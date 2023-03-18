@@ -110,7 +110,6 @@ function main() {
     firstSpeaker.classList.add('visible');
     secondSpeaker.classList.add('visible');
   });
-  // check screen width to specify no of speaker cards visible
 }
 // handle mobile menu opening and closing
 const indexMenu = document.getElementById('open-mobile-menu');
@@ -146,6 +145,7 @@ if (aboutMenu !== null) {
     handleOpenMobileMenu();
   });
 }
+// event listeners for close button on mobile menu
 closeMobileMenu.addEventListener('click', () => {
   handleCloseMobileMenu();
 });
@@ -169,6 +169,7 @@ function controlSpeakers() {
     }
   });
 }
+// for screens greater that 768 px display all speakers and for less than 768 px display 2 speakers initially
 window.addEventListener('resize', () => {
   controlSpeakers();
 });
