@@ -4,6 +4,7 @@
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+  - [🛠 Walkthough](#walkthough)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
@@ -29,6 +30,10 @@
 **HackSummit 2023** is a capstone project for HTML CSS and JavaScript module at microverse
 
 ## 🛠 Built With <a name="built-with"> HTML CSS & Java Script</a>
+
+- Video to walkthrough of this project can be found [here]("https://www.loom.com/share/354d06ce5b2d4e83a8d2eef21ad1cd48")
+
+## 🛠 Walkthough <a name="walkthough"> https://www.loom.com/share/354d06ce5b2d4e83a8d2eef21ad1cd48</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
