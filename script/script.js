@@ -112,5 +112,27 @@ function main() {
   });
   // check screen width to specify no of speaker cards visible
 }
- 
+
+// control number of speakers displayed for mobile and desktop views initially
+function controlSpeakers() {
+  const screenWidth = window.screen.width;
+  const speakers = document.querySelectorAll('.speaker-container');
+  speakers.forEach((speaker, index) => {
+    if (screenWidth > 768) {
+      speaker.classList.add('visible');
+      handleCloseMobileMenu();
+    } else if (screenWidth < 768) {
+      if (index < 2) {
+        speaker.classList.add('visible');
+      } else {
+        speaker.classList.add('hidden');
+      }
+    }
+  });
+}
+window.addEventListener('resize', () => {
+  controlSpeakers();
+});
+window.onload = () => controlSpeakers();
+window.removeEventListener('resize', () => {});
 main();
