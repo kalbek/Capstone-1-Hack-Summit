@@ -112,16 +112,15 @@
   .hero-image {
     margin-top: 7%;
     width: fit-content;
+    margin-left: -14%;
   }
 
   .hero-image h1 {
-    margin-left: -14%;
     font-weight: 900;
     font-size: 70px;
   }
 
   .hero-image p {
-    margin-left: -14%;
     font-size: 45px;
     font-weight: 400;
     padding-bottom: 1rem;
