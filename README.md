@@ -96,7 +96,7 @@ No test are available
 
 ### Deployment
 
-This project is not currently deployed
+You can deploy this project through Github Pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
