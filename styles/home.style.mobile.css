@@ -518,10 +518,10 @@ main .hero {
 }
 
 .gray-bar {
-    content: url("../images/gray-bar-mobile.svg");
-    padding-bottom: 0.4rem;
-    margin-top: -8px;
-  }
+  content: url("../images/gray-bar-mobile.svg");
+  padding-bottom: 0.4rem;
+  margin-top: -8px;
+}
 
 .more-button:hover {
   cursor: pointer;
