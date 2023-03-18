@@ -169,7 +169,8 @@ function controlSpeakers() {
     }
   });
 }
-// for screens greater that 768 px display all speakers and for less than 768 px display 2 speakers initially
+// for screens greater that 768 px display all speakers and
+// for less than 768 px display 2 speakers initially
 window.addEventListener('resize', () => {
   controlSpeakers();
 });
