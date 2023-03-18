@@ -191,6 +191,7 @@
 
   .featured-speakers .bar {
     padding-top: 1rem;
+    background-color: red;
     content: url("../images/home/program-title-underline.svg");
   }
 
