@@ -191,13 +191,17 @@
 
   .featured-speakers .bar {
     padding-top: 1rem;
-    background-color: red;
     content: url("../images/home/program-title-underline.svg");
   }
 
   .partner .bar {
     padding-top: 1rem;
     content: url("../images/home/program-title-underline.svg");
+  }
+
+  .gray-bar {
+    content: url("../images/gray-bar-desktop.svg");
+    padding-bottom: 0.8rem;
   }
 
   .main-program .title .bar {
