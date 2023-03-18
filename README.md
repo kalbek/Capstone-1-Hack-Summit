@@ -57,9 +57,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> This projcet is not deployed currently
+> The live demo link to this project can be found at: 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://kalbek.github.io/Capstone-1-Hack-Summit/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
